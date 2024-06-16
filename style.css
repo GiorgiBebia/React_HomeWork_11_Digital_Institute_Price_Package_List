@@ -1,0 +1,116 @@
+header {
+  width: 412px;
+  height: 105px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 86px;
+}
+h1 {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 48px;
+  color: #000000;
+  margin: 0;
+}
+h3 {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 26px;
+  color: #000000;
+  margin: 0;
+}
+main {
+  display: flex;
+  width: 1282px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.basic,
+.basic2,
+.basic3,
+.basic4 {
+  width: 298px;
+  height: 650px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+.basic:hover,
+.basic2:hover,
+.basic3:hover,
+.basic4:hover,
+.btn:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover {
+  background-color: #4d4c7d57;
+}
+
+.option-text {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 26px;
+  color: #000000;
+  margin: 0;
+  padding-top: 22px;
+  padding-left: 18px;
+}
+.price-text {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-size: 30px;
+  color: #000000;
+  margin: 0;
+  padding-top: 14px;
+  padding-left: 18px;
+  padding-bottom: 77px;
+}
+.package-list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 27px;
+  padding-left: 18px;
+  padding-bottom: 20px;
+}
+.point {
+  width: 18px;
+  height: 18px;
+  background-color: #4d4c7d;
+  border-radius: 50%;
+}
+h5 {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.btn,
+.btn2,
+.btn3,
+.btn4 {
+  width: 238px;
+  height: 60px;
+  border: none;
+  background-color: #ffffff;
+  border: 1px solid #827397;
+  border-radius: 15px;
+  margin-top: 155px;
+  margin-left: 30px;
+  cursor: pointer;
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-size: 20px;
+  color: #827397;
+}
+
+.btn2 {
+  margin-top: 109px;
+}
+
+.btn3 {
+  margin-top: 61px;
+}
+.btn4 {
+  margin-top: 14px;
+}
